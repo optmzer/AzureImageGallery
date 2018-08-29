@@ -4,7 +4,25 @@ using System.Text;
 
 namespace AzureImageGallery.Data.Models
 {
-    class GalleryImage
+    public class GalleryImage
     {
+        public int Id { get; set; }
+
+        public string Title { get; set; }
+
+        /**
+         * Timestamp where the record was created
+         */ 
+        public DateTime Created { get; set; }
+        /**
+         * external Url to where the image is hosted
+         */
+        public string Url { get; set; }
+
+        /**
+         * Collection of tags for that image
+         */
+        public IEnumerable<string> Tags { get; set; }
+
     }
 }

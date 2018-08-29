@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AzureImageGallery.Data.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -10,7 +11,7 @@ namespace AzureImageGallery.Models
         /**
          * For images data
          */
-        public IEnumerable<GalleryImages> Images { get; set; } 
+        public IEnumerable<GalleryImage> Images { get; set; } 
 
         /**
          * Stores users input

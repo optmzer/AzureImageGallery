@@ -1,14 +1,15 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AzureImageGallery.Data.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 
 namespace AzureImageGallery.Data
 {
-    public class AzureImageGalleryDbContext: DbContext
+    public class AzureImageGalleryDbContext : DbContext
     {
         /**
          * Constructor
          */ 
-        public AzureImageGalleryDbContext(DbContextOptions options): base(options)
+        public AzureImageGalleryDbContext(DbContextOptions options) : base(options)
         {
 
         }

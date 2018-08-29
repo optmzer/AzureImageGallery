@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureImageGallery", "AzureImageGallery\AzureImageGallery.csproj", "{5F473594-B843-4A95-B557-D4125C78EBFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureImageGallery", "AzureImageGallery\AzureImageGallery.csproj", "{5F473594-B843-4A95-B557-D4125C78EBFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureImageGallery.Data", "AzureImageGallery.Data\AzureImageGallery.Data.csproj", "{02E9BD67-5DD2-43A0-8A6B-B81656B4AD6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureImageGallery.Data", "AzureImageGallery.Data\AzureImageGallery.Data.csproj", "{02E9BD67-5DD2-43A0-8A6B-B81656B4AD6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
