@@ -22,7 +22,7 @@ namespace AzureImageGallery.Data.Models
         /**
          * Collection of tags for that image
          */
-        public IEnumerable<string> Tags { get; set; }
+        public virtual IEnumerable<ImageTag> Tags { get; set; }
 
     }
 }

@@ -15,5 +15,6 @@ namespace AzureImageGallery.Data
         }
         // Creates new table GalleryImages
         public DbSet<GalleryImage> GalleryImages { get; set; }
+        public DbSet<ImageTag> ImageTags { get; set; }
     }
 }
