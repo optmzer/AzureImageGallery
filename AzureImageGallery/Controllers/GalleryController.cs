@@ -41,7 +41,7 @@ namespace AzureImageGallery.Controllers
                 new GalleryImage()
                 {
                     Title = "Hiking Trip",
-                    Url = "https://www.pexels.com/photo/daylight-environment-forest-idyllic-459225/",
+                    Url = "https://images.pexels.com/photos/454880/pexels-photo-454880.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
                     Created = DateTime.Now,
                     Tags = hikingImageTags
                 },
@@ -49,7 +49,7 @@ namespace AzureImageGallery.Controllers
                 new GalleryImage()
                 {
                     Title = "On The Trail",
-                    Url = "https://www.pexels.com/photo/conifer-daylight-environment-evergreen-454880/",
+                    Url = "https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
                     Created = DateTime.Now,
                     Tags = hikingImageTags
                 },
@@ -57,7 +57,7 @@ namespace AzureImageGallery.Controllers
                 new GalleryImage()
                 {
                     Title = "Downtown",
-                    Url = "https://www.pexels.com/photo/view-of-high-rise-buildings-during-day-time-302769/",
+                    Url = "https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?cs=srgb&dl=architecture-building-business-302769.jpg&fm=jpg",
                     Created = DateTime.Now,
                     Tags = cityImageTags
                 }

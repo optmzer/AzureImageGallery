@@ -3,18 +3,28 @@ for details on configuring this project to bundle and minify static web assets. 
 
 .gallery-content{
     padding: 10px;
-    background: white;
-    border-radius: 2px;
-    display: inline-block;
-    height: 300px;
-    width: 300px;
+    display: inline-flex;
 }
 
-.gallery-image {
+.gallery-image-container {
+    padding: 8px;
     margin: 15px;
+    background: white;
+    border-radius: 2px;
+    height: 300px;
+    width: 300px;
     position: relative;
     box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.2)
 }
+
+.gallery-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 280px;
+    width: 280px;
+}
+
 
 body {
     padding-top: 50px;
