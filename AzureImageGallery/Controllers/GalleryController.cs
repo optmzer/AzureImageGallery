@@ -65,7 +65,8 @@ namespace AzureImageGallery.Controllers
 
             var model = new GalleryIndexModel()
             {
-                Images = imageList
+                Images = imageList,
+                SearchQuery = ""
             };
             return View(model);
         }

@@ -1,5 +1,21 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
 for details on configuring this project to bundle and minify static web assets. */
+
+.gallery-content{
+    padding: 10px;
+    background: white;
+    border-radius: 2px;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+
+.gallery-image {
+    margin: 15px;
+    position: relative;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.2)
+}
+
 body {
     padding-top: 50px;
     padding-bottom: 20px;
