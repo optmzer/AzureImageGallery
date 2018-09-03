@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureImageGallery", "AzureI
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureImageGallery.Data", "AzureImageGallery.Data\AzureImageGallery.Data.csproj", "{02E9BD67-5DD2-43A0-8A6B-B81656B4AD6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureImageGallery.Services", "AzureImageGallery.Services\AzureImageGallery.Services.csproj", "{DF216E5A-AB58-4350-BD4F-22AA5AEBCFA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{02E9BD67-5DD2-43A0-8A6B-B81656B4AD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02E9BD67-5DD2-43A0-8A6B-B81656B4AD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02E9BD67-5DD2-43A0-8A6B-B81656B4AD6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF216E5A-AB58-4350-BD4F-22AA5AEBCFA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF216E5A-AB58-4350-BD4F-22AA5AEBCFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF216E5A-AB58-4350-BD4F-22AA5AEBCFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF216E5A-AB58-4350-BD4F-22AA5AEBCFA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
