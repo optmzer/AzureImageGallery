@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AzureImageGallery.Data\AzureImageGallery.Data.csproj" />
+  </ItemGroup>
+
 </Project>
