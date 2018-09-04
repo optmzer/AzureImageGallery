@@ -29,5 +29,22 @@ namespace AzureImageGallery.Controllers
             };
             return View(model);
         }
+
+        public IActionResult Detail(int id)
+        {
+            var image = _imageService.GetById(id);
+
+            var model = new GalleryDetailModel()
+            {
+                Id = image.Id,
+                Title = image.Title,
+                Created = image.Created,
+                Url = image.Url,
+                Tags = image.Tags.Select(tag => tag.Description).ToList()
+            };
+
+            return View(model);
+        }
+
     }
 }

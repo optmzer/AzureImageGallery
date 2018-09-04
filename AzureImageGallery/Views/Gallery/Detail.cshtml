@@ -1,0 +1,20 @@
+﻿@model AzureImageGallery.Models.GalleryDetailModel
+
+<div class="container body-content">
+    <div class="row image-detail-container">
+        <div class="image-detail">
+            <img src="@Model.Url" alt="@Model.Title"/>
+        </div>
+        <div class="row image-detail-meta">
+            <span>Title: @Model.Title</span>
+            <span>Uploaded: @Model.Created</span>
+        </div>
+        <!-- Link back to the Gallery-->
+        <div class="row controls">
+            <a class="btn btn-primary"
+               asp-controller="Gallery"
+               asp-action="Index"
+               >Gallery</a>
+        </div>
+    </div>
+</div>
