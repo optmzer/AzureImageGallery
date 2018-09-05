@@ -70,6 +70,7 @@ namespace AzureImageGallery.Services
 
         public List<ImageTag> ParseTags(string tags)
         {
+            /* This is the same as return below
             var imageTags = new List<ImageTag>();
             var tagList = tags.Split(",").ToList();
 
@@ -82,6 +83,12 @@ namespace AzureImageGallery.Services
             }
 
             return imageTags;
+            */
+
+            return tags.Split(",").Select(tag => new ImageTag
+            {
+                Description = tag
+            }).ToList();
         }
     }
 }

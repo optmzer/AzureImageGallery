@@ -1,5 +1,5 @@
-﻿using AzureImageGallery.Models;
-using AzureImageGallery.Services;
+﻿using AzureImageGallery.Data;
+using AzureImageGallery.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -11,11 +11,11 @@ namespace AzureImageGallery.Controllers
     public class ImageController : Controller
     {
         private IConfiguration _config;
-        private ImageService _imageService;
+        private IImage _imageService;
 
         private string AzureConnectionString { get; }
 
-        public ImageController(IConfiguration config, ImageService imageService)
+        public ImageController(IConfiguration config, IImage imageService)
         {
             _config = config;
             _imageService = imageService;
