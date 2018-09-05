@@ -4,8 +4,8 @@
     <div class="row upload-container">
         <div class="upload-form drop-shadow">
             <form asp-action="UploadNewImage"
-                  method="post"
-                  enc-type="multypart/form-data"
+                  method="POST"
+                  enctype="multipart/form-data"
                   id="upload-form">
                 <div class="form-group">
                     <label asp-for="Title"></label>
@@ -16,9 +16,9 @@
                     <input asp-for="Tags" class="form-control" />
                 </div>
                 <div>
-                    <label class="btn btn-default btn-file">
+                    <label asp-for="ImageUpload" class="btn btn-default btn-file">
                         Brows for Image
-                        <input type="file" name="file" style="display:none" />
+                        <input asp-for="ImageUpload" type="file" name="file" style="display:none" />
                     </label>
                 </div>
                 <div class="submit">
