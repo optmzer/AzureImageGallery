@@ -3,6 +3,7 @@ using AzureImageGallery.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using System;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
@@ -20,7 +21,7 @@ namespace AzureImageGallery.Controllers
             _config = config;
             _imageService = imageService;
 
-            AzureConnectionString = _config["AZURE_STOREAGE_CONNECTION_STRING"];
+            AzureConnectionString = _config["AZURE_STORAGE_CONNECTION_STRING"];
         }
 
         public IActionResult Upload()
